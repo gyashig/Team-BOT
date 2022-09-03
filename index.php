@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Khamu | Corporate, Business, Portfolio, Digital Agency HTML5</title>
+	<title>Blog Website</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.png" sizes="16x16" type="image/x-icon">
 	<!-- Bootstrap, Owl Carousel and Animate.css -->
@@ -39,13 +39,14 @@
 			</div>
 			<!-- <div class="logo">
 				<a href="index.html">
-					<!-- <img src="images/logo.png" alt="Khamu"> khamu</a> 
+					<img src="images/logo.png" alt="Khamu"> khamu</a> 
 			</div> -->
-			<nav class="topnav">
+			<nav class="topnav"><div class="row"> <span class="col-xs-6 col-sm-3"><a href="index.php"><img src="images/logo.png" width="100px" class="img-responsive" style="border-radius: 400px 400px 400px 400px"></a></span>
 				<div class="collapse navbar-collapse navbar-right" id="topnav">
 					<ul>
+					
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 							<!-- <ul>
 								<li>
 									<a href="index.html">One Page Layout V1</a>
@@ -61,9 +62,13 @@
 								</li>
 							</ul> -->
 						</li>
+						&nbsp;&nbsp;&nbsp;
+						<!-- <li class="active"> -->
+							<!-- <a href="#blogs">Blog</a></li> -->
+							</li><a href="javascript:void(0);" id="search"><i class="fa fa-search"  aria-hidden="true"></i></a>
 						
-						<li class="active">
-							<a href="javascript:void(0);">Blog</a>
+							&nbsp;&nbsp;&nbsp;
+						<button type="button"  style="background-color:#FFFFFF"><a href="login.php" target="blank">Login</a></button>
 							<!-- <ul> -->
 								<!-- <li>
 									<a href="blog-grid-no-sidebar.html">Grid Layout</a>
@@ -93,13 +98,12 @@
 									<a href="blog-post-right-sidebar.html">Blog Single - Right Sidebar</a>
 								</li> -->
 							<!-- </ul> -->
-						</li>
+						
 						<!-- <li>
 							<a href="contact.html">Contact</a>
 						</li>
 						<li>-->
-							<a href="javascript:void(0);" id="search"><i class="fa fa-search" aria-hidden="true"></i></a>
-						</li> 
+							 
 					</ul>
 				</div>
 			</nav>
@@ -120,16 +124,16 @@
 					<small>Everything you need</small> welcome to
 					<strong>our blog</strong>
 				</h1>
-				<div class="breadcrumbs-pk">
+				<!-- <div class="breadcrumbs-pk">
 					<span class="bc-item">
 						<a href="#">Home</a>
 					</span>
 					<span class="bc-item current">Blog</span>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		<div class="blogs-wrapper clearfix left-sidebar">
-			<h2 style="text-align:center; font-size:50px; color: #171717;background-color: #946f6a;">My Blogs</h2>
+			<h2 id="blogs" style="text-align:center; font-size:50px; color: #171717;background-color: #946f6a;">My Blogs</h2>
 			<div class="container">
 				<aside class="blogs-sidebar">
 					<div class="recent-posts-div">
