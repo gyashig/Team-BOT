@@ -24,6 +24,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+<style>
+	#blogs-wrapper .heading h2:after {
+	background: #f26767;
+	content: "";
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 70px;
+}
+</style>
 </head>
 
 <body id="top">
@@ -65,7 +76,7 @@
 						&nbsp;&nbsp;&nbsp;
 						<!-- <li class="active"> -->
 							<!-- <a href="#blogs">Blog</a></li> -->
-							</li><a href="javascript:void(0);" id="search"><i class="fa fa-search"  aria-hidden="true"></i></a>
+							</li><a href="javascript:void(0);" id="search"><i class="fa fa-search"  aria-hidden="true" style="color:white"></i></a>
 						
 							&nbsp;&nbsp;&nbsp;
 						<button type="button"  style="background-color:#FFFFFF"><a href="login.php" target="blank">Login</a></button>
@@ -107,18 +118,18 @@
 					</ul>
 				</div>
 			</nav>
-			<!-- <div class="search-form">
+			<div class="search-form">
 				<a href="javascript:void(0);" id="close">
 					<img src="images/close-icon.png" alt="close">
 				</a>
 				<form>
 					<input type="text" class="form-control" placeholder="Type any keyword and hit enter...">
 				</form>
-			</div> -->
+			</div>
 		</div>
 	</header>
 	<main>
-		<div class="inner-sub-header" style="background-image:url(images/team-hdr-img.jpg);">
+		<div class="inner-sub-header" style="background-image:url(images/backgroundimage.avif);">
 			<div class="container">
 				<h1>
 					<small>Everything you need</small> welcome to
@@ -133,7 +144,7 @@
 			</div>
 		</div>
 		<div class="blogs-wrapper clearfix left-sidebar">
-			<h2 id="blogs" style="text-align:center; font-size:50px; color: #171717;background-color: #946f6a;">My Blogs</h2>
+			<h2 class="heading" style="text-align:center; font-size:50px; color: #171717;">My Blogs</h2>
 			<div class="container">
 				<aside class="blogs-sidebar">
 					<div class="recent-posts-div">
@@ -146,7 +157,7 @@
 							</div>
 							<div class="post-description">
 								<h4>
-									<a href="#">Why Choose Khamu Template?</a>
+									<a href="#">Food Blogs!</a>
 								</h4>
 								<cite>24th Feb, 2017</cite>
 							</div>
@@ -497,8 +508,12 @@
 								</div>
 							</div>
 						</div>
+						
 					</div>
-					<div class="pagination-div">
+					<div class="blogs-wrapper clearfix left-sidebar">
+			<h2 class="heading" style="text-align:center; font-size:50px; color: #171717; margin-left:-300px">Write Your Own Blog!</h2>
+			<a class="button" href="texteditor.php" target="_blank">Start Writting</a>
+					<!-- <div class="pagination-div">
 						<ul>
 							<li>
 								<a href="#"><i class="fa fa-angle-left"></i></a>
@@ -516,8 +531,10 @@
 								<a href="#"><i class="fa fa-angle-right"></i></a>
 							</li>
 						</ul>
-					</div>
+					</div> -->
+	
 				</section>
+				
 			</div>
 		</div>
 		<!-- <div class="buy-khamu-wrapper">
@@ -528,7 +545,7 @@
 			</div>
 		</div> -->
 		<!-- Footer -->
-
+		
 		 <footer class="footer footer-v2 text-center">
 			<a href="#top" class="scrolltop"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
             <div class="copyright-pk">

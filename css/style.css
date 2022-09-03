@@ -299,7 +299,19 @@ body {
 /** Header End **/
  /** Banner **/
 
-
+ .button {
+    display: block;
+    width: 500px;
+    height: 50px;
+    background: #f26767;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+	font-size: 20px;
+}
 
 main, .home-banner, .home-banner .carousel, .home-banner .carousel-inner, .home-banner .container {
 	position: relative;
@@ -2350,7 +2362,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#454545', end
 .blogs-wrapper {
 	background: #eceef6;
 	display: block;
-	padding: 100px 0;
+	padding:0;
 }
 
 .blogs-wrapper .blogs-sidebar {
