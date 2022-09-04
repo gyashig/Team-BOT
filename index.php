@@ -144,7 +144,7 @@
 			</div>
 		</div>
 		<div class="blogs-wrapper clearfix left-sidebar">
-			<h2 class="heading" style="text-align:center; font-size:50px; color: #171717;">My Blogs</h2>
+			<h2 class="heading" style="text-align:center; font-size:50px; color: #171717;">Latest Blogs</h2>
 			<div class="container">
 				<aside class="blogs-sidebar">
 					<div class="recent-posts-div">
@@ -321,137 +321,137 @@
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
-										<img src="images/blog-img-02.jpg" alt="blog">
+									<a href="https://www.miscw.com/evoplay-games-integration-b2b-solutions-57021.html" target="blank">
+										<img src="images/blog1.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">GOOD DESIGN </a>
+										<a href="https://www.miscw.com/evoplay-games-integration-b2b-solutions-57021.html" target="blank">Evoplay Games Integration </a>
 									</h3>
 									<cite>Posted by:
-										<strong>Jhon Doe</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Alex</strong> | On:
+										<strong>01st June, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>Founded in 2013, Evoplay Entertainment is well-known in the iGaming market as a game developer who enjoys entertaining .</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
+									<a href="https://techcrunch.com/2022/09/03/apple-readies-its-next-iphone-joe-rogan-interviews-zuck-and-twitter-purportedly-pauses-plans-to-compete-with-onlyfans/" target="blank">
 										<img src="images/blog-img-03.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">FREELANCING TIPS</a>
+										<a href="https://techcrunch.com/2022/09/03/apple-readies-its-next-iphone-joe-rogan-interviews-zuck-and-twitter-purportedly-pauses-plans-to-compete-with-onlyfans/" target="blank">Apple readies its next iPhone</a>
 									</h3>
 									<cite>Posted by:
-										<strong>Emaa Watt</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Greg Kumparak</strong> | On:
+										<strong>04th Sept, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>Apple events tend to suck all the air out of the room in the days leading up to them because…well, no one wants to announce some big new thing just to have it immediately overshadowed .</p>
 								</div>
 							</div>
-						</div>
+						</div><br>
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
+									<a href="https://21acres.org/blog/recipe-broccoli-and-cauliflower-cheddar-soup/?nis=8" target="blank">
 										<img src="images/blog-img-04.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">FACEBOOK MN TIPS</a>
+										<a href="https://21acres.org/blog/recipe-broccoli-and-cauliflower-cheddar-soup/?nis=8" target="blank">RECIPE: BROCCOLI AND CAULIFLOWER</a>
 									</h3>
 									<cite>Posted by:
-										<strong>Jhon Doe</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Kari Fetrow</strong> | On:
+										<strong>29th Sept, 2021</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>Hello all and Happy Fall! It’s Kari here, chiming in from the Farm Market Deli. I wanted to share our very popular Broccoli + Cauliflower Cheddar Soup recipe with you all. I absolutely love making this soup.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
+									<a href="https://www.fhfh.org/recipe-box.html?nis=8" target="blank">
 										<img src="images/blog-img-05.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">GRAFFITI TUTORIAL</a>
+										<a href="https://www.fhfh.org/recipe-box.html?nis=8" target="blank">Antelope Tagine with Vegetables </a>
 									</h3>
 									<cite>Posted by:
-										<strong>Emaa Watt</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Bobbie Jo Wasilko</strong> | On:
+										<strong>24th Feb, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>The intoxicating smell of Moroccan spices will fill your kitchen with this easy to make dish using a traditional Moroccan Clay *Tagine. But fear not, if you don't have a tagine vessel, a dutch oven will do the trick.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
+									<a href="https://clutchpoints.com/heat-news-i-still-have-the-fire-lebron-james-ex-miami-teammate-2x-nba-champ-sounds-off-on-potential-nba-comeback/" target="blank">
 										<img src="images/blog-img-06.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">LIGHTING EFFECTS</a>
+										<a href="https://clutchpoints.com/heat-news-i-still-have-the-fire-lebron-james-ex-miami-teammate-2x-nba-champ-sounds-off-on-potential-nba-comeback/" target="blank">‘I still have the fire’</a>
 									</h3>
 									<cite>Posted by:
-										<strong>Jhon Doe</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Paolo Songco</strong> | On:
+										<strong>03rd Sept, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>Team USA is currently taking part in the FIBA AmeriCup tournament in Brazil which started on Friday. Unlike in other more prestigious international tournaments.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
+									<a href="https://www.espn.in/football/blog-the-match/story/4736317/liverpool-drop-more-points-at-everton-in-thrilling-merseyside-derby" target="blank">
 										<img src="images/blog-img-07.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">TRICKS &amp; TIPS FOR EDITING</a>
+										<a href="https://www.espn.in/football/blog-the-match/story/4736317/liverpool-drop-more-points-at-everton-in-thrilling-merseyside-derby" target="blank">Liverpool drop more points</a>
 									</h3>
 									<cite>Posted by:
-										<strong>Emaa Watt</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Mark Odgen</strong> | On:
+										<strong>03rd Sept, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>LIVERPOOL -- Everton and Liverpool played out a goalless draw at Goodison Park in a Premier League Merseyside derby that was a lot more entertaining than the scoreline would suggest.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
+									<a href="https://www.businessinsider.in/business/corporates/news/recession-in-the-us-may-cool-off-attrition-in-it-sector-along-with-revenues/articleshow/93942471.cms?utm_source=social_Whatsapp&utm_medium=social_sharing&utm_campaign=Click_through_social_share" target="blank">
 										<img src="images/blog-img-02.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">GOOD DESIGN DESIGN</a>
+										<a href="https://www.businessinsider.in/business/corporates/news/recession-in-the-us-may-cool-off-attrition-in-it-sector-along-with-revenues/articleshow/93942471.cms?utm_source=social_Whatsapp&utm_medium=social_sharing&utm_campaign=Click_through_social_share" target="blank">Recession in the US</a>
 									</h3>
 									<cite>Posted by:
-										<strong>Jhon Doe</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>ROUNAK JAIN</strong> | On:
+										<strong>02nd Sept, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>After two years of bumper profits and mind-boggling salary hikes, TCS, Infosys and Wipro – along with their employees – are bracing for a slowdown.</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<div class="blogbox">
 								<figure>
 									<a href="#">
@@ -469,27 +469,27 @@
 									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="col-md-6">
 							<div class="blogbox">
 								<figure>
-									<a href="#">
-										<img src="images/blog-img-02.jpg" alt="blog">
+									<a href="https://www.forbes.com/sites/elainepofeldt/2022/08/30/more-big-companies-are-hiring-freelancers-thats-good-news-for-the-self-employed/?sh=61b333434837" target="blank">
+										<img src="images/blog-img-03.jpg" alt="blog">
 									</a>
 								</figure>
 								<div class="blog-content">
 									<h3>
-										<a href="#">GOOD DESIGN IS N</a>
+										<a href="https://www.forbes.com/sites/elainepofeldt/2022/08/30/more-big-companies-are-hiring-freelancers-thats-good-news-for-the-self-employed/?sh=61b333434837" target="blank">Company Hiring Freelancers</a>
 									</h3>
 									<cite>Posted by:
-										<strong>Jhon Doe</strong> | On:
-										<strong>24th Feb, 2017</strong>
+										<strong>Elaine Pofeldt</strong> | On:
+										<strong>30th Aug, 2022</strong>
 									</cite>
-									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
+									<p>A growing number of employers are turning to freelancers for help during the current labor shortage, and self-employed professionals are reaping the benefits of higher demand</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6">
+						<!-- <div class="col-md-6">
 							<div class="blogbox">
 								<figure>
 									<a href="#">
@@ -507,7 +507,7 @@
 									<p>We build awesome websites with minimal are design that sells a lot and we are revolutionizing minimal are marketing.</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						
 					</div>
 					<div class="blogs-wrapper clearfix left-sidebar">
