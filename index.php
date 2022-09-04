@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 	<title>Blog Website</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.png" sizes="16x16" type="image/x-icon">
@@ -148,7 +149,7 @@
 			<div class="container">
 				<aside class="blogs-sidebar">
 					<div class="recent-posts-div">
-						<h3>Recent posts</h3>
+						<h3>Recent Blogs</h3>
 						<article>
 							<div class="post-thumb">
 								<a href="#">
@@ -157,9 +158,9 @@
 							</div>
 							<div class="post-description">
 								<h4>
-									<a href="#">Food Blogs!</a>
+									<a href="#">Evoplay Games</a>
 								</h4>
-								<cite>24th Feb, 2017</cite>
+								<cite>01st June, 2022</cite>
 							</div>
 						</article>
 						<article>
@@ -170,9 +171,9 @@
 							</div>
 							<div class="post-description">
 								<h4>
-									<a href="#">Discover New Products</a>
+									<a href="#">Apple Readies</a>
 								</h4>
-								<cite>24th Feb, 2017</cite>
+								<cite>04th Sept, 2022</cite>
 							</div>
 						</article>
 						<article>
@@ -183,9 +184,9 @@
 							</div>
 							<div class="post-description">
 								<h4>
-									<a href="#">Why Use Photoshop For Designing?</a>
+									<a href="#">Recipe: Broccoli and Cauliflower</a>
 								</h4>
-								<cite>24th Feb, 2017</cite>
+								<cite>29th Feb, 2021</cite>
 							</div>
 						</article>
 						<article>
@@ -196,9 +197,9 @@
 							</div>
 							<div class="post-description">
 								<h4>
-									<a href="#">New Barber Shop Just Opened</a>
+									<a href="#">Liverpool drop more points</a>
 								</h4>
-								<cite>24th Feb, 2017</cite>
+								<cite>03rd Sept, 2022</cite>
 							</div>
 						</article>
 						<article>
@@ -209,9 +210,9 @@
 							</div>
 							<div class="post-description">
 								<h4>
-									<a href="#">Freelancing Tips</a>
+									<a href="#">Antelope Tagine</a>
 								</h4>
-								<cite>24th Feb, 2017</cite>
+								<cite>24th Feb, 2022</cite>
 							</div>
 						</article>
 					</div>
@@ -219,26 +220,26 @@
 						<h3>Categories</h3>
 						<ul>
 							<li>
-								<a href="#">Blogroll
-									<span>(1)</span>
+								<a href="#tech1">Tech Blogs
+									<span>(2)</span>
 								</a>
 							</li>
 							<li>
-								<a href="#">Editor’s Choice
-									<span>(11)</span>
+								<a href="#food1">Food Blogs
+									<span>(2)</span>
 								</a>
 							</li>
 							<li>
-								<a href="#">Featured
-									<span>(5)</span>
+								<a href="#sports1">Sports Blogs
+									<span>(2)</span>
 								</a>
 							</li>
 							<li>
-								<a href="#">Handpicked
-									<span>(3)</span>
+								<a href="#business1">Business Blogs
+									<span>(2)</span>
 								</a>
 							</li>
-							<li>
+							<!-- <li>
 								<a href="#">Design
 									<span>(1)</span>
 								</a>
@@ -257,51 +258,52 @@
 								<a href="#">Others
 									<span>(35)</span>
 								</a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 					<div class="newsletter-signup">
-						<h3>Subscribe to our Newsletter</h3>
-						<p>Sign up to receive updates and join our 1 subscribers that see what's new with Ragnar!</p>
+						<h3>Subscribe for the latest blogs</h3>
+						<p>Sign up to receive the exclusive content for the latest upcoming blogs.</p>
 						<form>
 							<input type="text" placeholder="Email">
-							<button type="submit" class="btn-submit">Subscribe!</button>
+							<input type="submit" onclick="alert('Thank You For Subscribing')" value="Subscribe" id="submit">
 						</form>
 					</div>
+					
 					<div class="follow-us">
-						<h3>follow us</h3>
+						<h3>Follow us</h3>
 						<div class="social-links">
-							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-							<a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+							<a href="https://www.facebook.com/ineuronai" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="https://www.youtube.com/channel/UCb1GdqUqArXMQ3RS86lqqOw" target="blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+							<a href="https://twitter.com/iNeuronAi" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/company/ineuron-ai/mycompany/" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							<!-- <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a> -->
 						</div>
 					</div>
 					<div class="instagram-feed-area">
-						<h3>instagram feed</h3>
+						<h3>Latest feeds</h3>
 						<div class="feed-thumbs">
-							<a href="#">
+							<a href="https://www.miscw.com/evoplay-games-integration-b2b-solutions-57021.html" target="blank">
 								<img src="images/instagram-feed-thumb-01.jpg" alt="instagram">
 							</a>
-							<a href="#">
+							<a href="https://techcrunch.com/2022/09/03/apple-readies-its-next-iphone-joe-rogan-interviews-zuck-and-twitter-purportedly-pauses-plans-to-compete-with-onlyfans/" target="blank">
 								<img src="images/instagram-feed-thumb-02.jpg" alt="instagram">
 							</a>
-							<a href="#">
+							<a href="https://21acres.org/blog/recipe-broccoli-and-cauliflower-cheddar-soup/?nis=8" target="blank">
 								<img src="images/instagram-feed-thumb-03.jpg" alt="instagram">
 							</a>
-							<a href="#">
+							<a href="https://www.fhfh.org/recipe-box.html?nis=8" target="blank">
 								<img src="images/instagram-feed-thumb-04.jpg" alt="instagram">
 							</a>
-							<a href="#">
+							<a href="https://clutchpoints.com/heat-news-i-still-have-the-fire-lebron-james-ex-miami-teammate-2x-nba-champ-sounds-off-on-potential-nba-comeback/" target="blank">
 								<img src="images/instagram-feed-thumb-05.jpg" alt="instagram">
 							</a>
-							<a href="#">
+							<a href="https://www.businessinsider.in/business/corporates/news/recession-in-the-us-may-cool-off-attrition-in-it-sector-along-with-revenues/articleshow/93942471.cms?utm_source=social_Whatsapp&utm_medium=social_sharing&utm_campaign=Click_through_social_share" target="blank">
 								<img src="images/instagram-feed-thumb-06.jpg" alt="instagram">
 							</a>
 						</div>
 					</div>
-					<div class="tags-cloud">
+					<!-- <div class="tags-cloud">
 						<h3>tag cloud</h3>
 						<div class="post-tags">
 							<a href="#">Design</a>
@@ -314,7 +316,7 @@
 							<a href="#">Design</a>
 							<a href="#">Development</a>
 						</div>
-					</div>
+					</div> -->
 				</aside>
 				<section class="blogs-main">
 					<div class="row">
@@ -322,7 +324,7 @@
 							<div class="blogbox">
 								<figure>
 									<a href="https://www.miscw.com/evoplay-games-integration-b2b-solutions-57021.html" target="blank">
-										<img src="images/blog1.jpg" alt="blog">
+										<img src="images/blog1.jpg" alt="blog" id="tech1">
 									</a>
 								</figure>
 								<div class="blog-content">
@@ -366,7 +368,7 @@
 							<div class="blogbox">
 								<figure>
 									<a href="https://21acres.org/blog/recipe-broccoli-and-cauliflower-cheddar-soup/?nis=8" target="blank">
-										<img src="images/blog-img-04.jpg" alt="blog">
+										<img src="images/blog-img-04.jpg" alt="blog" id="food1">
 									</a>
 								</figure>
 								<div class="blog-content">
@@ -410,7 +412,7 @@
 							<div class="blogbox">
 								<figure>
 									<a href="https://clutchpoints.com/heat-news-i-still-have-the-fire-lebron-james-ex-miami-teammate-2x-nba-champ-sounds-off-on-potential-nba-comeback/" target="blank">
-										<img src="images/blog-img-06.jpg" alt="blog">
+										<img src="images/blog-img-06.jpg" alt="blog" id="sports1">
 									</a>
 								</figure>
 								<div class="blog-content">
@@ -454,7 +456,7 @@
 							<div class="blogbox">
 								<figure>
 									<a href="https://www.businessinsider.in/business/corporates/news/recession-in-the-us-may-cool-off-attrition-in-it-sector-along-with-revenues/articleshow/93942471.cms?utm_source=social_Whatsapp&utm_medium=social_sharing&utm_campaign=Click_through_social_share" target="blank">
-										<img src="images/blog-img-02.jpg" alt="blog">
+										<img src="images/blog-img-02.jpg" alt="blog" id="business1">
 									</a>
 								</figure>
 								<div class="blog-content">
