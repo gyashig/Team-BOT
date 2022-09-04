@@ -337,7 +337,7 @@
 									</cite>
 									<p>Founded in 2013, Evoplay Entertainment is well-known in the iGaming market as a game developer who enjoys entertaining .</p>
 									<i class='fa fa-share fa-2x' ></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x' onclick="background-color:blue;"></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -359,7 +359,7 @@
 									</cite>
 									<p>Apple events tend to suck all the air out of the room in the days leading up to them because…well, no one wants to announce some big new thing just to have it immediately overshadowed .</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -381,7 +381,7 @@
 									</cite>
 									<p>Hello all and Happy Fall! It’s Kari here, chiming in from the Farm Market Deli. I wanted to share our very popular Broccoli + Cauliflower Cheddar Soup recipe with you all. I absolutely love making this soup.</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -403,7 +403,7 @@
 									</cite>
 									<p>The intoxicating smell of Moroccan spices will fill your kitchen with this easy to make dish using a traditional Moroccan Clay *Tagine. But fear not, if you don't have a tagine vessel, a dutch oven will do the trick.</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -425,7 +425,7 @@
 									</cite>
 									<p>Team USA is currently taking part in the FIBA AmeriCup tournament in Brazil which started on Friday. Unlike in other more prestigious international tournaments.</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -447,7 +447,7 @@
 									</cite>
 									<p>LIVERPOOL -- Everton and Liverpool played out a goalless draw at Goodison Park in a Premier League Merseyside derby that was a lot more entertaining than the scoreline would suggest.</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -469,7 +469,7 @@
 									</cite>
 									<p>After two years of bumper profits and mind-boggling salary hikes, TCS, Infosys and Wipro – along with their employees – are bracing for a slowdown.</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -510,7 +510,7 @@
 									</cite>
 									<p>A growing number of employers are turning to freelancers for help during the current labor shortage, and self-employed professionals are reaping the benefits of higher demand</p>
 									<i class='fa fa-share fa-2x'></i> &nbsp;&nbsp;&nbsp;
-									<i class='fa fa-thumbs-o-up fa-2x'></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-thumbs-o-up fa-2x'id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
 							</div>
@@ -673,3 +673,7 @@
 
 <!-- Mirrored from www.kazierfan.com/themes/khamu/khamu/blog-grid-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Sep 2022 09:29:37 GMT -->
 </html>
+<script>
+	let btnPrimary = document.querySelector('#like')
+	btnPrimary.addEventListener('click', () => btnPrimary.style.color = 'blue')
+</script>
