@@ -342,7 +342,7 @@
 										<strong>01st June, 2022</strong>
 									</cite>
 									<p>Founded in 2013, Evoplay Entertainment is well-known in the iGaming market as a game developer who enjoys entertaining .</p>
-									<i class='fa fa-share fa-2x' ></i> &nbsp;&nbsp;&nbsp;
+									<i class='fa fa-share fa-2x' onclick="CopyLink()"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-thumbs-o-up fa-2x' id="like"></i> &nbsp;&nbsp;&nbsp;
 									<i class='fa fa-comment-o fa-2x'></i>
 								</div>
@@ -683,18 +683,50 @@
 	let btnPrimary = document.querySelector('#like')
 	btnPrimary.addEventListener('click', () => btnPrimary.style.color = 'blue')
 </script>
-<!-- <script type="text/javascript">
-							const p = document.getElementById("p");
-							const special = /[\\[{().+*?|^$]/g;
-							
-							function search() {
-								Let input = document.getElementById("input").value;
+<script>
+	function copyTextToClipboard(text) {
+  var textArea = document.createElement("textarea");
 
-								if (input !== "") {
-									if (special.test(input)) input = input.replace(special, "\\$&");
-									Let regExp = new RegExp(input, "gi");
-									p.innerHTML = (p.textContent).replace(regExp, "<mark>$&</mark>");
-								}
-								}
-							
-						</script> -->
+  
+
+  // Place in top-left corner of screen regardless of scroll position.
+  textArea.style.position = 'fixed';
+  textArea.style.top = 0;
+  textArea.style.left = 0;
+
+  // Ensure it has a small width and height. Setting to 1px / 1em
+  // doesn't work as this gives a negative w/h on some browsers.
+  textArea.style.width = '2em';
+  textArea.style.height = '2em';
+   // We don't need padding, reducing the size if it does flash render.
+   textArea.style.padding = 0;
+
+// Clean up any borders.
+textArea.style.border = 'none';
+textArea.style.outline = 'none';
+textArea.style.boxShadow = 'none';
+
+// Avoid flash of white box if rendered for any reason.
+textArea.style.background = 'transparent';
+
+
+textArea.value = text;
+
+document.body.appendChild(textArea);
+
+textArea.select();
+
+try {
+  var successful = document.execCommand('copy');
+  var msg = successful ? 'successful' : 'unsuccessful';
+  console.log('Copying text command was ' + msg);
+} catch (err) {
+  console.log('Oops, unable to copy');
+} document.body.removeChild(textArea);
+}
+function CopyLink() {
+  copyTextToClipboard(location.href);
+  alert("link copied");
+}
+</script>
+
