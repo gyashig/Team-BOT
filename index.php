@@ -77,9 +77,18 @@
 						&nbsp;&nbsp;&nbsp;
 						<!-- <li class="active"> -->
 							<!-- <a href="#blogs">Blog</a></li> -->
-							</li><a href="javascript:void(0);" id="search"><i class="fa fa-search"  aria-hidden="true" style="color:white"></i></a>
+							</li>
+							 <!-- <div id="searchBox">
+							<input type="text" id="input" placeholder="Search" />
+							<input type="button" id="SearchBtn" value="Search" /> 
+							 -->
+							
+							<a href="javascript:void(0);" id="search"><i class="fa fa-search"  aria-hidden="true" style="color:white"></i></a>
 						
 							&nbsp;&nbsp;&nbsp;
+
+						
+
 						<button type="button"  style="background-color:#FFFFFF"><a href="login.php" target="blank">Login</a></button>
 							<!-- <ul> -->
 								<!-- <li>
@@ -677,3 +686,18 @@
 	let btnPrimary = document.querySelector('#like')
 	btnPrimary.addEventListener('click', () => btnPrimary.style.color = 'blue')
 </script>
+<!-- <script type="text/javascript">
+							const p = document.getElementById("p");
+							const special = /[\\[{().+*?|^$]/g;
+							
+							function search() {
+								Let input = document.getElementById("input").value;
+
+								if (input !== "") {
+									if (special.test(input)) input = input.replace(special, "\\$&");
+									Let regExp = new RegExp(input, "gi");
+									p.innerHTML = (p.textContent).replace(regExp, "<mark>$&</mark>");
+								}
+								}
+							
+						</script> -->
