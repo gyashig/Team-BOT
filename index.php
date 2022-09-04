@@ -78,10 +78,7 @@
 						<!-- <li class="active"> -->
 							<!-- <a href="#blogs">Blog</a></li> -->
 							</li>
-							 <!-- <div id="searchBox">
-							<input type="text" id="input" placeholder="Search" />
-							<input type="button" id="SearchBtn" value="Search" /> 
-							 -->
+							
 							
 							<a href="javascript:void(0);" id="search"><i class="fa fa-search"  aria-hidden="true" style="color:white"></i></a>
 						
